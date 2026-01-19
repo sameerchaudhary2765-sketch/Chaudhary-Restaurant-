@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chaudhary Restaurant</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* ===== BODY ===== */
+body{
+  background:#0f0f0f;
+  color:#eee;
+}
+
+
+/* ===== TOP BAR ===== */
+.topbar{
+  background:#111;
+  padding:10px;
+  text-align:center;
+  font-size:14px;
+  color:#d4af37;
+}
+
+
+/* ===== HEADER ===== */
+header{
+  padding:40px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#000,#1c1c1c);
+}
+
+
+header h1{
+  font-size:38px;
+  color:#d4af37;
+  letter-spacing:2px;
+}
+
+
+header p{
+  margin-top:10px;
+  color:#ccc;
+}
+
+
+/* ===== NAV ===== */
+nav{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  background:#1a1a1a;
+}
+
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  padding:14px 20px;
+  transition:0.3s;
+}
+
+
+nav a:hover{
+  background:#d4af37;
+  color:#000;
+}
+
+
+/* ===== HERO ===== */
+.hero{
+  padding:70px 20px;
+  text-align:center;
+  background:url('https://images.unsplash.com/photo-1552566626-52f8b828add9') center/cover;
+}
+
+
+.hero h2{
+  font-size:32px;
+  color:#fff;
+  background:rgba(0,0,0,0.6);
+  display:inline-block;
+  padding:10px 20px;
+  border-radius:6px;
+}
+
+
+/* ===== SECTION ===== */
+section{
+  padding:40px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+
+.section-title{
+  text-align:center;
+  margin-bottom:30px;
+  color:#d4af37;
+  font-size:28px;
+}
+
+
+/* ===== CARDS ===== */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+
+.card{
+  background:#1c1c1c;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+
+
+.card p{
+  margin:8px 0;
+}
+
+
+.card span{
+  color:#d4af37;
+  font-weight:600;
+}
+
+
+/* ===== MENU ===== */
+.menu li{
+  padding:8px 0;
+  border-bottom:1px dashed #333;
+}
+
+
+/* ===== FOOTER ===== */
+footer{
+  background:#000;
+  text-align:center;
+  padding:15px;
+  color:#aaa;
+  font-size:14px;
+}
+</style>
+</head>
+
+
+<body>
+
+
+<div class="topbar">
+📞 7081561158 | 📍 Itwa, Siddharthnagar (UP)
+</div>
+
+
+<header>
+  <h1>CHAUDHARY RESTAURANT</h1>
+  <p>Premium Taste • Family Dining • Quality Food</p>
+</header>
+
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#owner">Owner</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+<div class="hero">
+  <h2>Welcome to Our Restaurant</h2>
+</div>
+
+
+<section id="about">
+  <h2 class="section-title">About Restaurant</h2>
+  <div class="card">
+    <p>
+      Chaudhary Restaurant ek premium family restaurant hai jahan
+      hygienic, fresh aur delicious food serve kiya jata hai.
+    </p>
+  </div>
+</section>
+
+
+<section id="owner">
+  <h2 class="section-title">Owner Profile</h2>
+  <div class="cards">
+    <div class="card">
+      <p><span>Name:</span> Mohammad Sameer Chaudhary</p>
+      <p><span>Father:</span> Mohammad Shakeel Chaudhary</p>
+      <p><span>Qualification:</span> Intermediate, ADCA</p>
+      <p><span>College:</span> Rais Ahmad Inter College, Itwa</p>
+    </div>
+
+
+    <div class="card">
+      <p><span>DOB:</span> 01/01/2005</p>
+      <p><span>Religion:</span> Islam</p>
+      <p><span>Village:</span> Mudila Sonvarsa</p>
+      <p><span>District:</span> Siddharthnagar</p>
+      <p><span>State:</span> Uttar Pradesh, India</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="menu">
+  <h2 class="section-title">Special Menu</h2>
+  <div class="card menu">
+    <ul>
+      <li>Veg Thali</li>
+      <li>Dal Chawal</li>
+      <li>Roti Sabzi</li>
+      <li>Biryani</li>
+      <li>Cold Drinks</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <div class="card">
+    <p>📞 7081561158</p>
+    <p>📍 Mudila Sonvarsa, Itwa, Siddharthnagar, UP</p>
+  </div>
+</section>
+
+
+<footer>
+© 2026 Chaudhary Restaurant | Designed by Sameer
+</footer>
+
+
+</body>
+</html>ke
